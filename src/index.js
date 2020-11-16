@@ -2,7 +2,13 @@ import React from 'react';
 import ReactDom from 'react-dom';
 
 const App = function(){
-    return <div>Hi there!RRRrr</div>
+    return (
+        <div>
+            <label>Enter name: </label>
+            <input />
+            <button style={{backgroundColor: 'blue', color: 'white'}}>Submit</button>
+        </div>
+    );
 }
 
 ReactDom.render(
